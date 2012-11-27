@@ -12,6 +12,6 @@ The API requires following skills in any programming language.
 The documentation indicates parameters that need to be replaced with actual values using the format <parameter_name>. The entire string including the enclosing < and > should be replaced.
 *For example: if the parameter is <email> it should be replaced with the required email address*
 ##Topics
-* Tickets* Staff* Priority* Protocols, Data Formats and Mechanisms
+* [Tickets](sections/tickets.md)* [Staff](sections/staff.md)* [Priority](sections/priority.md)* [Protocols, Data Formats and Mechanisms](sections/protocols.md)
 
 
