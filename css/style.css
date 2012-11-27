@@ -14,11 +14,11 @@ body {
     font-size: 13px;
     line-height: 20px;
     color: #000;
-    background:#F6F1E6;
+    background:#e1e7de;
     margin: 10px 13px 10px 13px;
 }
-#headersec{position: fixed; height: 50px; width: 100%; top:0px; left: 0px; background: #1F3661; color: #F6F1E6; overflow: hidden;}
-#logo{float: left; height: 100px; width: 200px; background: url("../img/happyfox.png") no-repeat;}
+#headersec{height: 50px; width: 100%;}
+#menu{height: 30px; width: 100%; margin:0px; background: #9dbf8e;}
 table {
 	margin: 10px 0 15px 0;
 	border-collapse: collapse;

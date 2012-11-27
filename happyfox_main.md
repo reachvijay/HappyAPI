@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="css/style.css"></link>
 <div id="headersec">
-<div id="logo"></div>
-<div style="clear:both;"></div>
+
 </div>
+<div id="menu"></div>
 #HappyFox API Technical Reference
 
 The API provided by the Helpdesk is a RESTful web service. It supports operations like creating a ticket, adding updates to a ticket, listing tickets and users of the Helpdesk, etc. It supports JSON, YAML, XML, Form Urlencoded and Multipart Form Data formats.
