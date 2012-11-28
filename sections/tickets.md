@@ -1,4 +1,4 @@
-*Happyfox API Technical Reference* [Home](../readme.md)
+*Happyfox API Technical Reference* [Home](https://github.com/reachvijay/HappyAPI/blob/master/README.md)
 
 
 #Tickets

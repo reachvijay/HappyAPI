@@ -24,13 +24,13 @@ The documentation indicates parameters that need to be replaced with actual valu
 
 ##Topics
 
-* [Tickets](sections/tickets.md)
-* [Ticket Category](sections/category.md)
-* [Ticket Status](sections/status.md)
-* [Ticket Priority](sections/priority.md)
-* [Custom Fields](sections/customfields.md)
-* [Staff](sections/staff.md)
-* [Protocols, Data Formats and Mechanisms](sections/protocols.md)
+* [Tickets](https://github.com/reachvijay/HappyAPI/blob/master/sections/tickets.md)
+* [Ticket Category](https://github.com/reachvijay/HappyAPI/blob/master/sections/category.md)
+* [Ticket Status](https://github.com/reachvijay/HappyAPI/blob/master/sections/status.md)
+* [Ticket Priority](https://github.com/reachvijay/HappyAPI/blob/master/sections/priority.md)
+* [Custom Fields](https://github.com/reachvijay/HappyAPI/blob/master/sections/customfields.md)
+* [Staff](https://github.com/reachvijay/HappyAPI/blob/master/sections/staff.md)
+* [Protocols, Data Formats and Mechanisms](https://github.com/reachvijay/HappyAPI/blob/master/sections/protocols.md)
 
 
 
