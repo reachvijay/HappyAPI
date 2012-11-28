@@ -30,6 +30,7 @@ The documentation indicates parameters that need to be replaced with actual valu
 * [Ticket Priority](https://github.com/reachvijay/HappyAPI/blob/master/sections/priority.md)
 * [Custom Fields](https://github.com/reachvijay/HappyAPI/blob/master/sections/customfields.md)
 * [Staff](https://github.com/reachvijay/HappyAPI/blob/master/sections/staff.md)
+* [User](https://github.com/reachvijay/HappyAPI/blob/master/sections/user.md)
 * [Protocols, Data Formats and Mechanisms](https://github.com/reachvijay/HappyAPI/blob/master/sections/protocols.md)
 
 
