@@ -12,18 +12,131 @@ Custom fields allow additional data to be added to the Helpdesk as required. Cus
 * [Read one ticket custom field](#read-one-ticket-custom-field)
 
 ###Read All User Custom Fields
+
+<table><tr>
+			<td>
+				<b>URL</b>
+			</td>
+			<td>
+				&lt;base_url&gt;/&lt;response_format&gt;/user_custom_fields/
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>HTTP Method</b>
+			</td>
+			<td>
+				GET
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Response Data</b>
+			</td>
+			<td>
+				List of User
+				Custom Field
+			</td>
+		</tr>
+	</table>
+
 #####Data Structure
 #####Code Example
 <p align="right"><a href="#operations">Top</a></p>
 ###Read One User Custom Field
+
+<table><tr>
+			<td>
+				<b>URL</b>
+			</td>
+			<td>
+				&lt;base_url&gt;/&lt;response_format&gt;/user_custom_field/&lt;id&gt;/
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>HTTP Method</b>
+			</td>
+			<td>
+				GET
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Response Data</b>
+			</td>
+			<td>
+				User
+				Custom Field
+			</td>
+		</tr>
+	</table>
+
 #####Data Structure
 #####Code Example
+
 <p align="right"><a href="#operations">Top</a></p>
 ###Read All Ticket Custom Fields
+
+<table><tr>
+			<td>
+				<b>URL</b>
+			</td>
+			<td>
+				&lt;base_url&gt;/&lt;response_format&gt;/ticket_custom_fields/
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>HTTP Method</b>
+			</td>
+			<td>
+				GET
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Response Data</b>
+			</td>
+			<td>
+				List of Ticket
+				Custom Field
+			</td>
+		</tr>
+	</table>
+
 #####Data Structure
 #####Code Example
 <p align="right"><a href="#operations">Top</a></p>
 ###Read One Ticket Custom Field
+
+<table><tr>
+			<td>
+				<b>URL</b>
+			</td>
+			<td>
+				&lt;base_url&gt;/&lt;response_format&gt;/ticket_custom_field/&lt;id&gt;/
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>HTTP Method</b>
+			</td>
+			<td>
+				GET
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Response Data</b>
+			</td>
+			<td>
+				Ticket
+				Custom Field
+			</td>
+		</tr>
+	</table>
+
 #####Data Structure
 #####Code Example
 <p align="right"><a href="#operations">Top</a></p>
