@@ -35,7 +35,8 @@ The URIs used by the API have a common base URI followed by the response data fo
 
 The following HTTP methods are used to perform operations on resources provided by the API.
 *NOTE: not all resources support all the listed operations, see the documentation of each resource for the supported methods*
-<table><tr>
+<table>
+<tr>
 			<td>
 				<b>HTTP
 				Method</b>
