@@ -16,7 +16,7 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/categories/
+				&lt;base_url&gt;/&lt;response_format&gt;/categories/
 			</td>
 		</tr>
 		<tr>
@@ -48,7 +48,7 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/category/&lt;id&gt;/
+				&lt;base_url&gt;/&lt;response_format&gt;/category/&lt;id&gt;/
 			</td>
 		</tr>
 		<tr>

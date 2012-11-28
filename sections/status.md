@@ -1,22 +1,22 @@
 *Happyfox API Technical Reference* [Home](../happyfox_main.md)
 
-#Tickets Category
+#Tickets Status
 
 A Ticket Category is a grouping of tickets based on a common attribute like ticket purpose, product or service, support type or department.
 
 ###Operations
 
-* [Read all categories](tickets.md#read-all-categories)
-* [Read one category](tickets.md#read-one-category)
+* [Read all statuses](#read-all-statuses)
+* [Read one status](#read-one-status)
 
-###Read All Categories
+###Read All Statuses
 
 <table><tr>
 			<td>
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/categories/
+				&lt;base_url&gt;/&lt;response_format&gt;/statuses/
 			</td>
 		</tr>
 		<tr>
@@ -33,7 +33,7 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 			</td>
 			<td>
 				List of Ticket
-				Category
+				Status
 			</td>
 		</tr>
 	</table>
@@ -41,14 +41,14 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 #####Data Structure
 #####Code Example
 
-###Read One Category
+###Read One Status
 
 <table><tr>
 			<td>
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/category/&lt;id&gt;/
+				&lt;base_url&gt;/&lt;response_format&gt;/status/&lt;id&gt;/
 			</td>
 		</tr>
 		<tr>
@@ -65,7 +65,7 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 			</td>
 			<td>
 				Ticket
-				Category
+				Status
 			</td>
 		</tr>
 	</table>
