@@ -63,7 +63,7 @@
 
 ###Read One Ticket
 
-<table><tbody><tr>
+<table><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -87,7 +87,7 @@
 				Ticket
 			</td>
 		</tr>
-	</tbody>
+	
 </table>	
 
 #####Data Structure
@@ -99,7 +99,7 @@
 ###Create a Ticket
 
 To create a ticket make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the newly created ticket.*NOTE: file attachments are supported only when using Multipart Form Data*
-<table><tbody><tr>
+<table><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -131,7 +131,7 @@ To create a ticket make a POST request to the URL below with request data encode
 				Ticket
 			</td>
 		</tr>
-	</tbody>
+	
 	</table>
 	
 #####Data Structure
@@ -141,7 +141,7 @@ To create a ticket make a POST request to the URL below with request data encode
 
 To add a staff update make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
 *NOTE: file attachments are supported only when using Multipart Form Data*
-<table><tbody><tr>
+<table><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -174,7 +174,7 @@ To add a staff update make a POST request to the URL below with request data enc
 				Ticket
 			</td>
 		</tr>
-	</tbody>
+	
 </table>
 
 #####Data Structure
@@ -185,7 +185,7 @@ To add a staff update make a POST request to the URL below with request data enc
 ###Add a Staff Private Note
 
 To add a staff private note make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
-<table><tbody><tr>
+<table><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -218,14 +218,14 @@ To add a staff private note make a POST request to the URL below with request da
 				Ticket
 			</td>
 		</tr>
-	</tbody>
+	
 	</table>
 	
 ###Add a User Reply
 
 To add a user reply make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
 *NOTE: file attachments are supported only when using Multipart Form Data*
-<table><tbody><tr>
+<table><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -258,7 +258,7 @@ To add a user reply make a POST request to the URL below with request data encod
 				Ticket
 			</td>
 		</tr>
-	</tbody>
+	
 	</table>
 	
 #####Data Structure
