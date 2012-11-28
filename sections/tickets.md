@@ -2,7 +2,9 @@
 
 
 #Tickets
+
 <div id="operations"></div>
+
 ###Operations Allowed On a Ticket
 
 * [Read all tickets](tickets.md#read-all-tickets)
@@ -54,6 +56,7 @@
 			</td>
 		</tr>
 </table>
+
 #####Data Structure
 
 
@@ -91,8 +94,11 @@
 </table>	
 
 #####Data Structure
+
 #####Code Example
+
 <p align="right"><a href="tickets.md#operations">Top</a></p>
+
 ###Create a Ticket
 
 To create a ticket make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the newly created ticket.*NOTE: file attachments are supported only when using Multipart Form Data*
@@ -131,11 +137,14 @@ To create a ticket make a POST request to the URL below with request data encode
 	</tbody>
 	</table>
 	
-#####Data Structure	
+#####Data Structure
+	
 #####Code Example
+
 <p align="right"><a href="tickets.md#operations">Top</a></p>
 
 ###Add a Staff Update
+
 To add a staff update make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
 *NOTE: file attachments are supported only when using Multipart Form Data*
 <table><tbody><tr>
@@ -173,11 +182,15 @@ To add a staff update make a POST request to the URL below with request data enc
 		</tr>
 	</tbody>
 </table>
+
 #####Data Structure
+
 #####Code Example
+
 <p align="right"><a href="tickets.md#operations">Top</a></p>
 
 ###Add a Staff Private Note
+
 To add a staff private note make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
 <table><tbody><tr>
 			<td>
@@ -214,6 +227,7 @@ To add a staff private note make a POST request to the URL below with request da
 		</tr>
 	</tbody>
 	</table>
+	
 ###Add a User Reply
 
 To add a user reply make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
@@ -253,6 +267,9 @@ To add a user reply make a POST request to the URL below with request data encod
 		</tr>
 	</tbody>
 	</table>
+	
 #####Data Structure
+
 #####Code Example
+
 <p align="right"><a href="tickets.md#operations">Top</a></p>
