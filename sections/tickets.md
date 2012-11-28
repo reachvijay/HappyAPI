@@ -102,7 +102,41 @@ To create a ticket make a POST request to the URL below with request data encode
 
 *NOTE: file attachments are supported only when using Multipart Form Data*
 
-
+<table><tr>
+			<td>
+				<b>URL</b>
+			</td>
+			<td>
+				&lt;base_uri&gt;/&lt;response_format&gt;/tickets/
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>HTTP Method</b>
+			</td>
+			<td>
+				POST
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Request Data</b>
+			</td>
+			<td>
+				Create
+				Ticket or Create
+				Ticket Using User Email &amp; Name
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Response Data</b>
+			</td>
+			<td>
+				Ticket
+			</td>
+		</tr>
+	</table>
 
 	
 #####Data Structure
@@ -161,7 +195,8 @@ To add a staff update make a POST request to the URL below with request data enc
 ###Add a Staff Private Note
 
 To add a staff private note make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
-<table><tr>
+<table>
+<tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -195,7 +230,12 @@ To add a staff private note make a POST request to the URL below with request da
 			</td>
 		</tr>
 	
-	</table>
+</table>
+	
+#####Data Structure
+#####Code Example
+
+<p align="right"><a href="#operations">Top</a></p>	
 	
 ###Add a User Reply
 
