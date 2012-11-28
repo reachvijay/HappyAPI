@@ -1,4 +1,4 @@
-*Happyfox API Technical Reference* [Home](../happyfox_main.md)
+*Happyfox API Technical Reference* [Home](../readme.md)
 
 #Tickets Status
 
