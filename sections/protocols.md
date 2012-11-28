@@ -24,19 +24,31 @@ The resources and operations provided by the API will change over time as new fe
 ###Resource URIs
 
 The URIs used by the API have a common base URI followed by the response data format and finally followed by the resource or collection URI.
-*For Example,* 
-*In http://&lt;server&gt;:&lt;port&gt;/api/&lt;api_version&gt;/
+
+*For Example,* 
+
+*In http://&lt;server&gt;:&lt;port&gt;/api/&lt;api_version&gt;/
 &lt;response_format&gt;/tickets/ http://&lt;server&gt;:&lt;port&gt;/api/&lt;api_version&gt;/ is the Base URI &lt;response_format&gt;/ is a response data format like json or yaml or xml tickets/ is the Resource URI*
-#####Base URI
-The base URI is composed of the following parts
-1. HTTPorHTTPSprotocolspecifier2. APIserverhostname3. APIserverportnumber(optional–defaultstoport80) 4. APIversionstring
+
+#####Base URI
+
+
+The base URI is composed of the following parts
+
+
+1. HTTPorHTTPSprotocolspecifier
+2. APIserverhostname
+3. APIserverportnumber(optional–defaultstoport80) 
+4. APIversionstring
 
 ###Request Methods
 
 The following HTTP methods are used to perform operations on resources provided by the API.
-*NOTE: not all resources support all the listed operations, see the documentation of each resource for the supported methods*
-<table>
-<tr>
+
+*NOTE: not all resources support all the listed operations, see the documentation of each resource for the supported methods*
+
+<table>
+<tr>
 			<td>
 				<b>HTTP
 				Method</b>
@@ -79,27 +91,42 @@ The following HTTP methods are used to perform operations on resources provided 
 				Delete a element
 			</td>
 		</tr>
-	</table>
+</table>
 
 ###Authentication
 
 The API requires a "API Key" and "Auth Code" pair for access. Contact the Helpdesk Admin for access details.
-The server uses HTTP Basic Authentication with the "API Key" as username and "Auth Code" as the password. The authentication realm is "API".
-The API server returns HTTP response code 401 in case of authorization required or login failure.
-#####SECURITY NOTES:
-1. Credentials are passed as plain-text in HTTP Basic Authentication, therefore it isrecommended to use SSL/TLS if the API is used over the Internet.2. It is not recommended to invoke the API directly from browser using Javascript as this would require the "API Key" and "Auth Code" to be present on the browser side. Instead the API should be invoked from the web application server.
+
+The server uses HTTP Basic Authentication with the "API Key" as username and "Auth Code" as the password. The authentication realm is "API".
+
+
+The API server returns HTTP response code 401 in case of authorization required or login failure.
+
+
+#####SECURITY NOTES:
+
+
+1. Credentials are passed as plain-text in HTTP Basic Authentication, therefore it is
+recommended to use SSL/TLS if the API is used over the Internet.
+2. It is not recommended to invoke the API directly from browser using Javascript as this would require the "API Key" and "Auth Code" to be present on the browser side. Instead the API should be invoked from the web application server.
 
 ###Throttling
 
 The API server limits the number of requests that can be sent during a interval of time. There are independent limits for read and write operations. Contact the Helpdesk Admin to know the current limits and for changing them to meet requirements.
-In case the request limits are exceeded the API server returns HTTP response code 503 along with the time to wait before retrying in the response body.
+
+In case the request limits are exceeded the API server returns HTTP response code 503 along with the time to wait before retrying in the response body.
 
 ###Request Content Types
 
 The following data formats are supported by the API server when data is sent to it for POST and PUT operations.
-Any of the data formats can be used provided the correct Content-Type is set in the HTTP request header.
-*NOTE: file uploads are only supported with Multipart Form Data.*
-<table><tr>
+
+Any of the data formats can be used provided the correct Content-Type is set in the HTTP request header.
+
+
+*NOTE: file uploads are only supported with Multipart Form Data.*
+
+
+<table><tr>
 		<td>
 			<b>Request
 			Format</b>
@@ -337,9 +364,14 @@ Some of the fields in a resource may be optional or currently absent . The value
 ###Paginated Lists for Collection Resources
 
 Some of the collection resources provided by the API may return a large volume of elements. In these cases the API imposes a upper limit on the number elements that can be returned in a single collection read request.
-By specifying a page size (lesser than or equal to the upper limit) and a corresponding page number as URL parameters, the collection can be split the into a smaller number of elements and progressively retrieved from the API server.
-The response from the API server contains information about the page split and the actual data as described below.
-#####URL Parameters
+
+By specifying a page size (lesser than or equal to the upper limit) and a corresponding page number as URL parameters, the collection can be split the into a smaller number of elements and progressively retrieved from the API server.
+
+
+The response from the API server contains information about the page split and the actual data as described below.
+
+
+#####URL Parameters
 
 <table><tr>
 			<td>
@@ -376,8 +408,13 @@ Some of the collection resources provided by the API may return a large volume o
 			</td>
 		</tr>
 	</table>
-#####Paginated List - Response Data StructureThis data structure contains information and data from the paginated list.
-<table><tr>
+
+#####Paginated List - Response Data Structure
+
+This data structure contains information and data from the paginated list.
+
+
+<table><tr>
 			<td>
 				<b>Field</b>
 			</td>
@@ -491,10 +528,15 @@ This inner data structure is used in the "page_info" field of a Paginated List.
 ###Data Validation Errors
 
 The API server performs validation on the data submitted via POST and PUT requests. In case the data validation fails, the API server returns HTTP response code 400 along with error information in the response body.
-The error information response data is a List of Field Errors that contains information about data validation errors in individual fields as well as any errors that apply to the entire request (like errors that are not dependent on individual fields).
-#####Field Errors - Response Data Structure
-This data structure contains the field name and the list of errors messages for the field.
-<table><tr>
+
+The error information response data is a List of Field Errors that contains information about data validation errors in individual fields as well as any errors that apply to the entire request (like errors that are not dependent on individual fields).
+
+#####Field Errors - Response Data Structure
+
+This data structure contains the field name and the list of errors messages for the field.
+
+
+<table><tr>
 			<td>
 				<b>Field</b>
 			</td>
