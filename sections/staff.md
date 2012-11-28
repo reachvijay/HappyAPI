@@ -1,22 +1,24 @@
 *Happyfox API Technical Reference* [Home](https://github.com/reachvijay/HappyAPI/blob/master/README.md)
 
-#Tickets Category
+#Staff
 
-A Ticket Category is a grouping of tickets based on a common attribute like ticket purpose, product or service, support type or department.
+A Staff is a person handling Helpdesk duties like responding to incoming tickets, solving the requests / problems covered in the tickets.
 
 ###Operations
 
-* [Read all categories](tickets.md#read-all-categories)
-* [Read one category](tickets.md#read-one-category)
+* [Read all staff](#read-all-staff)
+* [Read one staff by ID](#read-one-staff-by-id)
+* [Read one staff by email](#read-one-staff-by-email)
 
-###Read All Categories
+###Read All Staff
+Retrieve a list of all staff
 
 <table><tr>
 			<td>
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/categories/
+				&lt;base_uri&gt;/&lt;response_format&gt;/staff/
 			</td>
 		</tr>
 		<tr>
@@ -32,23 +34,25 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 				<b>Response Data</b>
 			</td>
 			<td>
-				List of Ticket
-				Category
+				List of Staff
 			</td>
 		</tr>
 	</table>
 
+
 #####Data Structure
 #####Code Example
+<p align="right"><a href="#operations">Top</a></p>
+###Read One Staff By ID
 
-###Read One Category
+Retrieve details of a staff using their ID
 
 <table><tr>
 			<td>
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/category/&lt;id&gt;/
+				&lt;base_uri&gt;/&lt;response_format&gt;/staff/&lt;id&gt;/
 			</td>
 		</tr>
 		<tr>
@@ -64,11 +68,44 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 				<b>Response Data</b>
 			</td>
 			<td>
-				Ticket
-				Category
+				Staff
+			</td>
+		</tr>
+	</table>
+
+
+#####Data Structure
+#####Code Example
+<p align="right"><a href="#operations">Top</a></p>
+###Read One Staff By Email
+Retrieve details of a staff using the their email address
+
+<table><tr>
+			<td>
+				<b>URL</b>
+			</td>
+			<td>
+				&lt;base_uri&gt;/&lt;response_format&gt;/staff/&lt;email&gt;/
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>HTTP Method</b>
+			</td>
+			<td>
+				GET
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Response Data</b>
+			</td>
+			<td>
+				Staff
 			</td>
 		</tr>
 	</table>
 
 #####Data Structure
 #####Code Example
+<p align="right"><a href="#operations">Top</a></p>
