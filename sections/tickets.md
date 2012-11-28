@@ -102,7 +102,8 @@ To create a ticket make a POST request to the URL below with request data encode
 
 *NOTE: file attachments are supported only when using Multipart Form Data*
 
-<table><tr>
+<table>
+<tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -136,7 +137,8 @@ To create a ticket make a POST request to the URL below with request data encode
 				Ticket
 			</td>
 		</tr>
-	</table>
+
+</table>
 
 	
 #####Data Structure
