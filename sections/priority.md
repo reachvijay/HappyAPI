@@ -1,22 +1,23 @@
 *Happyfox API Technical Reference* [Home](../happyfox_main.md)
 
-#Tickets Category
+#Ticket Priority
 
-A Ticket Category is a grouping of tickets based on a common attribute like ticket purpose, product or service, support type or department.
+A Ticket Priority describes the current importance of a ticket.
+<div id="operations"></div>
 
 ###Operations
 
-* [Read all categories](tickets.md#read-all-categories)
-* [Read one category](tickets.md#read-one-category)
+* [Read all priorities](#read-all-priorities)
+* [Read one priority](#read-one-priority)
 
-###Read All Categories
+###Read All Priorities
 
 <table><tr>
 			<td>
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/categories/
+				&lt;base_url&gt;/&lt;response_format&gt;/priorities/
 			</td>
 		</tr>
 		<tr>
@@ -33,22 +34,21 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 			</td>
 			<td>
 				List of Ticket
-				Category
+				Priority
 			</td>
 		</tr>
 	</table>
-
 #####Data Structure
 #####Code Example
-
-###Read One Category
+<p align="right"><a href="operations">Top</a></p>
+###Read One Priority
 
 <table><tr>
 			<td>
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/category/&lt;id&gt;/
+				&lt;base_url&gt;/&lt;response_format&gt;/priority/&lt;id&gt;/
 			</td>
 		</tr>
 		<tr>
@@ -65,10 +65,11 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 			</td>
 			<td>
 				Ticket
-				Category
+				Priority
 			</td>
 		</tr>
 	</table>
 
 #####Data Structure
 #####Code Example
+<p align="right"><a href="operations">Top</a></p>
