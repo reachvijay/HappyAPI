@@ -7,7 +7,7 @@ This section of the document describes the communication protocol, data formats 
 ###Sections
 
 * [API Version](#api-version)
-* [Resource URIs](#resource-URIs)
+* [Resource URIs](#resource-uris)
 * [Request Methods](#request-methods)
 * [Authentication](#authentication)
 * [Throttling](#throttling)
