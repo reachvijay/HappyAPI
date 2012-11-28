@@ -28,8 +28,8 @@ The documentation indicates parameters that need to be replaced with actual valu
 * [Ticket Category](sections/category.md)
 * [Ticket Status](sections/status.md)
 * [Ticket Priority](sections/priority.md)
+* [Custom Fields](sections/customfields.md)
 * [Staff](sections/staff.md)
-* [Priority](sections/priority.md)
 * [Protocols, Data Formats and Mechanisms](sections/protocols.md)
 
 

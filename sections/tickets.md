@@ -98,7 +98,7 @@ To create a ticket make a POST request to the URL below with request data encode
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/tickets/
+				&lt;base_url&gt;/&lt;response_format&gt;/tickets/
 			</td>
 		</tr>
 		<tr>
@@ -131,16 +131,118 @@ To create a ticket make a POST request to the URL below with request data encode
 ###Add a Staff Update
 To add a staff update make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
 *NOTE: file attachments are supported only when using Multipart Form Data*
-
-
+<table><tbody><tr>
+			<td>
+				<b>URL</b>
+			</td>
+			<td>
+				&lt;base_url&gt;/&lt;response_format&gt;/ticket/&lt;id&gt;/staff_update/
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>HTTP Method</b>
+			</td>
+			<td>
+				POST
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Request Data</b>
+			</td>
+			<td>
+				Add
+				Staff Update
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Response Data</b>
+			</td>
+			<td>
+				Ticket
+			</td>
+		</tr>
+	</tbody>
+</table>
 #####Data Structure
 #####Code Example
 
 ###Add a Staff Private Note
+To add a staff private note make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
+<table><tbody><tr>
+			<td>
+				<b>URL</b>
+			</td>
+			<td>
+				&lt;base_url&gt;/&lt;response_format&gt;/ticket/&lt;id&gt;/staff_pvtnote/
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>HTTP Method</b>
+			</td>
+			<td>
+				POST
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Request Data</b>
+			</td>
+			<td>
+				Add
+				Staff Private Note
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Response Data</b>
+			</td>
+			<td>
+				Ticket
+			</td>
+		</tr>
+	</tbody>
+	</table>
 ###Add a User Reply
 
- Operations Allowed
-               Sample Input Datastructure (if post action)
-               Sample Output Datastructure 
-               Code Examples 
+To add a user reply make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
+*NOTE: file attachments are supported only when using Multipart Form Data*
+<table><tbody><tr>
+			<td>
+				<b>URL</b>
+			</td>
+			<td>
+				&lt;base_url&gt;/&lt;response_format&gt;/ticket/&lt;id&gt;/user_reply/
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>HTTP Method</b>
+			</td>
+			<td>
+				POST
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Request Data</b>
+			</td>
+			<td>
+				Add
+				User Reply
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b>Response Data</b>
+			</td>
+			<td>
+				Ticket
+			</td>
+		</tr>
+	</tbody>
+	</table>
 
