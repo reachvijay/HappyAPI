@@ -6,8 +6,8 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 
 ###Operations
 
-* [Read all categories](tickets.md#read-all-categories)
-* [Read one category](tickets.md#read-one-category)
+* [Read all categories](#read-all-categories)
+* [Read one category](#read-one-category)
 
 ###Read All Categories
 
