@@ -20,7 +20,7 @@ This section of the document describes the communication protocol, data formats 
 
 ###API Version
 The resources and operations provided by the API will change over time as new features are added or existing features are modified. In order to maintain compatibility between the API clients and server each version of the API has a designated a version string. This string has to be specified as part of all the requests sent to the server. See Resource URIs for details on how to send the version number.
-
+<p align="right"><a href="#sections">Top</a></p>
 ###Resource URIs
 
 The URIs used by the API have a common base URI followed by the response data format and finally followed by the resource or collection URI.
@@ -41,6 +41,7 @@ The base URI is composed of the following parts
 3. APIserverportnumber(optional–defaultstoport80) 
 4. APIversionstring
 
+<p align="right"><a href="#sections">Top</a></p>
 ###Request Methods
 
 The following HTTP methods are used to perform operations on resources provided by the API.
@@ -93,6 +94,7 @@ The following HTTP methods are used to perform operations on resources provided 
 		</tr>
 </table>
 
+<p align="right"><a href="#sections">Top</a></p>
 ###Authentication
 
 The API requires a "API Key" and "Auth Code" pair for access. Contact the Helpdesk Admin for access details.
@@ -110,12 +112,14 @@ The API server returns HTTP response code 401 in case of authorization required 
 recommended to use SSL/TLS if the API is used over the Internet.
 2. It is not recommended to invoke the API directly from browser using Javascript as this would require the "API Key" and "Auth Code" to be present on the browser side. Instead the API should be invoked from the web application server.
 
+<p align="right"><a href="#sections">Top</a></p>
 ###Throttling
 
 The API server limits the number of requests that can be sent during a interval of time. There are independent limits for read and write operations. Contact the Helpdesk Admin to know the current limits and for changing them to meet requirements.
 
 In case the request limits are exceeded the API server returns HTTP response code 503 along with the time to wait before retrying in the response body.
 
+<p align="right"><a href="#sections">Top</a></p>
 ###Request Content Types
 
 The following data formats are supported by the API server when data is sent to it for POST and PUT operations.
@@ -185,6 +189,7 @@ Any of the data formats can be used provided the correct Content-Type is set in 
 	</tr>
 </table>
 
+<p align="right"><a href="#sections">Top</a></p>
 ###Response Content Types
 
 The following data formats are supported for response data sent back by the API server. The required data format is specified as the <response_format> mentioned under Resource URIs.
@@ -238,6 +243,7 @@ The following data formats are supported for response data sent back by the API 
 		</tr>
 	</table>
 
+<p align="right"><a href="#sections">Top</a></p>
 ###Data Types
 
 These are the basic data types that are used in the API. Using these types more complex data structures for the resources are built.
@@ -323,6 +329,7 @@ These are the basic data types that are used in the API. Using these types more 
 		</tr>
 	</table>
 
+<p align="right"><a href="#sections">Top</a></p>
 ###NULL Values
 
 Some of the fields in a resource may be optional or currently absent . The values of these fields are represented as a special NULL value. This value maps to corresponding equivalents in the data formats as listed below.
@@ -361,6 +368,7 @@ Some of the fields in a resource may be optional or currently absent . The value
 		</tr>
 	</table>
 
+<p align="right"><a href="#sections">Top</a></p>
 ###Paginated Lists for Collection Resources
 
 Some of the collection resources provided by the API may return a large volume of elements. In these cases the API imposes a upper limit on the number elements that can be returned in a single collection read request.
@@ -525,6 +533,7 @@ This inner data structure is used in the "page_info" field of a Paginated List.
 		</tr>
 	</table>
 
+<p align="right"><a href="#sections">Top</a></p>
 ###Data Validation Errors
 
 The API server performs validation on the data submitted via POST and PUT requests. In case the data validation fails, the API server returns HTTP response code 400 along with error information in the response body.
@@ -572,3 +581,5 @@ This data structure contains the field name and the list of errors messages for 
 			</td>
 		</tr>
 	</table>
+	
+<p align="right"><a href="#sections">Top</a></p>
