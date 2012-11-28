@@ -108,7 +108,7 @@ To create a ticket make a POST request to the URL below with request data encode
 				<b>URL</b>
 			</td>
 			<td>
-				&lt;base_uri&gt;/&lt;response_format&gt;/tickets/
+				&lt;base_url&gt;/&lt;response_format&gt;/tickets/
 			</td>
 		</tr>
 		<tr>
