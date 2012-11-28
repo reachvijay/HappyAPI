@@ -40,7 +40,7 @@ A Ticket Priority describes the current importance of a ticket.
 	</table>
 #####Data Structure
 #####Code Example
-<p align="right"><a href="operations">Top</a></p>
+<p align="right"><a href="#operations">Top</a></p>
 ###Read One Priority
 
 <table><tr>
@@ -72,4 +72,4 @@ A Ticket Priority describes the current importance of a ticket.
 
 #####Data Structure
 #####Code Example
-<p align="right"><a href="operations">Top</a></p>
+<p align="right"><a href="#operations">Top</a></p>
