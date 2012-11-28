@@ -5,12 +5,12 @@
 <div id="operations"></div>
 ###Operations Allowed On a Ticket
 
-* [Read all tickets](#read-all-tickets)
-* [Read one ticket](#read-one-ticket)
-* [Create a ticket](#create-a-ticket)
-* [Add a staff update](#add-a-staff-update)
-* [Add a staff private note](#add-a-staff-private-note)
-* [Add a user reply](#add-a-user-reply)
+* [Read all tickets](tickets.md#read-all-tickets)
+* [Read one ticket](tickets.md#read-one-ticket)
+* [Create a ticket](tickets.md#create-a-ticket)
+* [Add a staff update](tickets.md#add-a-staff-update)
+* [Add a staff private note](tickets.md#add-a-staff-private-note)
+* [Add a user reply](tickets.md#add-a-user-reply)
 
 
 ###Read All Tickets
@@ -59,7 +59,7 @@
 
 #####Code Example
 
-<p align="right"><a href="#operations">Top</a></p>
+<p align="right"><a href="tickets.md#operations">Top</a></p>
 
 ###Read One Ticket
 
@@ -92,7 +92,7 @@
 
 #####Data Structure
 #####Code Example
-<p align="right"><a href="#operations">Top</a></p>
+<p align="right"><a href="tickets.md#operations">Top</a></p>
 ###Create a Ticket
 
 To create a ticket make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the newly created ticket.*NOTE: file attachments are supported only when using Multipart Form Data*
@@ -133,7 +133,7 @@ To create a ticket make a POST request to the URL below with request data encode
 	
 #####Data Structure	
 #####Code Example
-<p align="right"><a href="#operations">Top</a></p>
+<p align="right"><a href="tickets.md#operations">Top</a></p>
 
 ###Add a Staff Update
 To add a staff update make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
@@ -175,7 +175,7 @@ To add a staff update make a POST request to the URL below with request data enc
 </table>
 #####Data Structure
 #####Code Example
-<p align="right"><a href="#operations">Top</a></p>
+<p align="right"><a href="tickets.md#operations">Top</a></p>
 
 ###Add a Staff Private Note
 To add a staff private note make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
@@ -255,4 +255,4 @@ To add a user reply make a POST request to the URL below with request data encod
 	</table>
 #####Data Structure
 #####Code Example
-<p align="right"><a href="#operations">Top</a></p>
+<p align="right"><a href="tickets.md#operations">Top</a></p>
