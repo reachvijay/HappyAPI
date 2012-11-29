@@ -15,7 +15,7 @@
 
 ###Read All Tickets
 
-<table style="width:90%;"><tr>	<td>
+<table width="90%"><tr>	<td>
 				<b>URL</b>
 			</td>
 			<td>
@@ -60,7 +60,7 @@
 
 ###Read One Ticket
 
-<table style="width:90%;"><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -99,7 +99,7 @@ To create a ticket make a POST request to the URL below with request data encode
 
 *NOTE: file attachments are supported only when using Multipart Form Data*
 
-<table  style="width:90%;">
+<table  width="90%">
 <tr>
 			<td>
 				<b>URL</b>
@@ -150,7 +150,7 @@ To add a staff update make a POST request to the URL below with request data enc
 
 *NOTE: file attachments are supported only when using Multipart Form Data*
 
-<table style="width:90%;"><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -194,7 +194,7 @@ To add a staff update make a POST request to the URL below with request data enc
 ###Add a Staff Private Note
 
 To add a staff private note make a POST request to the URL below with request data encoded in one of the supported formats. On success it returns the modified ticket.
-<table style="width:90%;">
+<table width="90%">
 <tr>
 			<td>
 				<b>URL</b>
@@ -242,7 +242,7 @@ To add a user reply make a POST request to the URL below with request data encod
 
 *NOTE: file attachments are supported only when using Multipart Form Data*
 
-<table style="width:90%;"><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
