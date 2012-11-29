@@ -1,4 +1,4 @@
-*Happyfox API Technical Reference* [Home](https://github.com/reachvijay/HappyAPI/blob/master/README.md)
+ <p align="right">*Happyfox API Technical Reference* | [Home](https://github.com/reachvijay/HappyAPI/blob/master/README.md)</p>
 
 #Protocols
 
@@ -6,11 +6,8 @@ This section of the document describes the communication protocol, data formats 
 
 ###Sections
 
-* [API Version](#api-version)
-* [Resource URIs](#resource-uris)
+
 * [Request Methods](#request-methods)
-* [Authentication](#authentication)
-* [Throttling](#throttling)
 * [Request Content Types](#request-content-types)
 * [Response Content Types](#response-content-types)
 * [Data Types](#data-types)
@@ -18,30 +15,7 @@ This section of the document describes the communication protocol, data formats 
 * [Paginated Lists for Collection Resources](#paginated-lists-for-collection-resources)
 * [Data Validation Errors](#data-validation-errors)
 
-###API Version
-The resources and operations provided by the API will change over time as new features are added or existing features are modified. In order to maintain compatibility between the API clients and server each version of the API has a designated a version string. This string has to be specified as part of all the requests sent to the server. See Resource URIs for details on how to send the version number.
-<p align="right"><a href="#sections">Top</a></p>
-###Resource URIs
 
-The URIs used by the API have a common base URI followed by the response data format and finally followed by the resource or collection URI.
-
-*For Example,* 
-
-*In http://&lt;server&gt;:&lt;port&gt;/api/&lt;api_version&gt;/
-&lt;response_format&gt;/tickets/ http://&lt;server&gt;:&lt;port&gt;/api/&lt;api_version&gt;/ is the Base URI &lt;response_format&gt;/ is a response data format like json or yaml or xml tickets/ is the Resource URI*
-
-#####Base URI
-
-
-The base URI is composed of the following parts
-
-
-1. HTTPorHTTPSprotocolspecifier
-2. APIserverhostname
-3. APIserverportnumber(optional–defaultstoport80) 
-4. APIversionstring
-
-<p align="right"><a href="#sections">Top</a></p>
 ###Request Methods
 
 The following HTTP methods are used to perform operations on resources provided by the API.
@@ -93,32 +67,6 @@ The following HTTP methods are used to perform operations on resources provided 
 			</td>
 		</tr>
 </table>
-
-<p align="right"><a href="#sections">Top</a></p>
-###Authentication
-
-The API requires a "API Key" and "Auth Code" pair for access. Contact the Helpdesk Admin for access details.
-
-The server uses HTTP Basic Authentication with the "API Key" as username and "Auth Code" as the password. The authentication realm is "API".
-
-
-The API server returns HTTP response code 401 in case of authorization required or login failure.
-
-
-#####SECURITY NOTES:
-
-
-1. Credentials are passed as plain-text in HTTP Basic Authentication, therefore it is
-recommended to use SSL/TLS if the API is used over the Internet.
-2. It is not recommended to invoke the API directly from browser using Javascript as this would require the "API Key" and "Auth Code" to be present on the browser side. Instead the API should be invoked from the web application server.
-
-<p align="right"><a href="#sections">Top</a></p>
-###Throttling
-
-The API server limits the number of requests that can be sent during a interval of time. There are independent limits for read and write operations. Contact the Helpdesk Admin to know the current limits and for changing them to meet requirements.
-
-In case the request limits are exceeded the API server returns HTTP response code 503 along with the time to wait before retrying in the response body.
-
 <p align="right"><a href="#sections">Top</a></p>
 ###Request Content Types
 

@@ -1,4 +1,3 @@
-
 #HappyFox API Technical Reference
 
 The API provided by the Helpdesk is a RESTful web service. It supports operations like creating a ticket, adding updates to a ticket, listing tickets and users of the Helpdesk, etc. It supports JSON, YAML, XML, Form Urlencoded and Multipart Form Data formats.
@@ -22,7 +21,7 @@ The documentation indicates parameters that need to be replaced with actual valu
 
 *For example: if the parameter is <email> it should be replaced with the required email address*
 
-##Topics
+##End Points
 
 * [Tickets](https://github.com/reachvijay/HappyAPI/blob/master/sections/tickets.md)
 * [Ticket Category](https://github.com/reachvijay/HappyAPI/blob/master/sections/category.md)
@@ -32,6 +31,52 @@ The documentation indicates parameters that need to be replaced with actual valu
 * [Staff](https://github.com/reachvijay/HappyAPI/blob/master/sections/staff.md)
 * [User](https://github.com/reachvijay/HappyAPI/blob/master/sections/user.md)
 * [Protocols, Data Formats and Mechanisms](https://github.com/reachvijay/HappyAPI/blob/master/sections/protocols.md)
+
+##Authentication
+
+The API requires a "API Key" and "Auth Code" pair for access. Contact the Helpdesk Admin for access details.
+
+The server uses HTTP Basic Authentication with the "API Key" as username and "Auth Code" as the password. The authentication realm is "API".
+
+
+The API server returns HTTP response code 401 in case of authorization required or login failure.
+
+
+####SECURITY NOTES:
+
+
+1. Credentials are passed as plain-text in HTTP Basic Authentication, therefore it is
+recommended to use SSL/TLS if the API is used over the Internet.
+2. It is not recommended to invoke the API directly from browser using Javascript as this would require the "API Key" and "Auth Code" to be present on the browser side. Instead the API should be invoked from the web application server.
+
+##API Version
+The resources and operations provided by the API will change over time as new features are added or existing features are modified. In order to maintain compatibility between the API clients and server each version of the API has a designated a version string. This string has to be specified as part of all the requests sent to the server. See Resource URIs for details on how to send the version number.
+
+##Resource URIs
+
+The URIs used by the API have a common base URI followed by the response data format and finally followed by the resource or collection URI.
+
+*For Example,* 
+
+*In http://&lt;server&gt;:&lt;port&gt;/api/&lt;api_version&gt;/
+&lt;response_format&gt;/tickets/ http://&lt;server&gt;:&lt;port&gt;/api/&lt;api_version&gt;/ is the Base URI &lt;response_format&gt;/ is a response data format like json or yaml or xml tickets/ is the Resource URI*
+
+####Base URI
+
+
+The base URI is composed of the following parts
+
+
+1. HTTPorHTTPSprotocolspecifier
+2. APIserverhostname
+3. APIserverportnumber(optional–defaultstoport80) 
+4. APIversionstring
+
+##Throttling
+
+The API server limits the number of requests that can be sent during a interval of time. There are independent limits for read and write operations. Contact the Helpdesk Admin to know the current limits and for changing them to meet requirements.
+
+In case the request limits are exceeded the API server returns HTTP response code 503 along with the time to wait before retrying in the response body.
 
 
 
