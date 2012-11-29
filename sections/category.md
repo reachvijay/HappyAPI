@@ -2,6 +2,8 @@
 
 #Tickets Category
 
+---
+
 A Ticket Category is a grouping of tickets based on a common attribute like ticket purpose, product or service, support type or department.
 
 <div id="operations"></div>
@@ -12,7 +14,7 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 
 ###Read All Categories
 
-<table><tr>
+<table style="width:90%;"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -44,7 +46,7 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 <p align="right"><a href="#operations">Top</a></p>
 ###Read One Category
 
-<table><tr>
+<table style="width:90%;"><tr>
 			<td>
 				<b>URL</b>
 			</td>

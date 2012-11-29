@@ -1,10 +1,4 @@
-```
-this is a sample code;
-{
-what is the main thingy;
-}
-code;
-```
+
 #HappyFox API Technical Reference
 
 The API provided by the Helpdesk is a RESTful web service. It supports operations like creating a ticket, adding updates to a ticket, listing tickets and users of the Helpdesk, etc. It supports JSON, YAML, XML, Form Urlencoded and Multipart Form Data formats.
@@ -15,9 +9,9 @@ The API requires following skills in any programming language.
 
 1. Making HTTP requests (using GET and POST HTTP methods as a minimum requirement).
 
-2. Doing HTTPBasicAuthentication.
+2. Doing HTTP Basic Authentication.
 
-3. Generatingandreadingdatainanyoneoftheformats-JSON,YAMLorXML.
+3. Generating and reading data in anyone of the formats-JSON,YAMLorXML.
 
 4. Optionally making HTTP POST requests using content type of "multipart/form-data" (needed for ticket attachments)
 
@@ -26,7 +20,7 @@ The API requires following skills in any programming language.
 The documentation indicates parameters that need to be replaced with actual values using the format <parameter_name>. The entire string including the enclosing < and > should be replaced.
 
 
-*For example: if the parameter is <email> it should be replaced with the required email address*
+*For example: if the parameter is &lt;email&gt; it should be replaced with the required email address*
 
 ##End Points
 
@@ -52,9 +46,8 @@ The API server returns HTTP response code 401 in case of authorization required 
 ####SECURITY NOTES:
 
 
-1. Credentials are passed as plain-text in HTTP Basic Authentication, therefore it is
-recommended to use SSL/TLS if the API is used over the Internet.
-2. It is not recommended to invoke the API directly from browser using Javascript as this would require the "API Key" and "Auth Code" to be present on the browser side. Instead the API should be invoked from the web application server.
+* Credentials are passed as plain-text in HTTP Basic Authentication, therefore it is recommended to use SSL/TLS if the API is used over the Internet.
+* It is not recommended to invoke the API directly from browser using Javascript as this would require the "API Key" and "Auth Code" to be present on the browser side. Instead the API should be invoked from the web application server.
 
 ##API Version
 The resources and operations provided by the API will change over time as new features are added or existing features are modified. In order to maintain compatibility between the API clients and server each version of the API has a designated a version string. This string has to be specified as part of all the requests sent to the server. See Resource URIs for details on how to send the version number.
@@ -63,10 +56,8 @@ The resources and operations provided by the API will change over time as new fe
 
 The URIs used by the API have a common base URI followed by the response data format and finally followed by the resource or collection URI.
 
-*For Example,* 
 
-*In http://&lt;server&gt;:&lt;port&gt;/api/&lt;api_version&gt;/
-&lt;response_format&gt;/tickets/ http://&lt;server&gt;:&lt;port&gt;/api/&lt;api_version&gt;/ is the Base URI &lt;response_format&gt;/ is a response data format like json or yaml or xml tickets/ is the Resource URI*
+![](img/resourceurieg.png)
 
 ####Base URI
 
@@ -74,10 +65,10 @@ The URIs used by the API have a common base URI followed by the response data fo
 The base URI is composed of the following parts
 
 
-1. HTTPorHTTPSprotocolspecifier
-2. APIserverhostname
-3. APIserverportnumber(optional–defaultstoport80) 
-4. APIversionstring
+1. HTTP or HTTPS protocol specifier
+2. API server hostname
+3. API server port number (optional–defaults to port 80) 
+4. API version string
 
 ##Throttling
 
