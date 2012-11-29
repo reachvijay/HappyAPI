@@ -1,5 +1,4 @@
-*Happyfox API Technical Reference* [Home](https://github.com/reachvijay/HappyAPI/blob/master/README.md)
-
+ <p align="right">*Happyfox API Technical Reference* | [Home](https://github.com/reachvijay/HappyAPI/blob/master/README.md)</p>
 #Tickets Status
 
 A Ticket Category is a grouping of tickets based on a common attribute like ticket purpose, product or service, support type or department.
