@@ -1,4 +1,3 @@
-
 #HappyFox API Technical Reference
 
 The API provided by the Helpdesk is a RESTful web service. It supports operations like creating a ticket, adding updates to a ticket, listing tickets and users of the Helpdesk, etc. It supports JSON, YAML, XML, Form Urlencoded and Multipart Form Data formats.
@@ -57,7 +56,7 @@ The resources and operations provided by the API will change over time as new fe
 The URIs used by the API have a common base URI followed by the response data format and finally followed by the resource or collection URI.
 
 
-![](img/resourceurieg.png)
+![example](https://raw.github.com/reachvijay/HappyAPI/master/img/resourceurieg.png)
 
 ####Base URI
 
