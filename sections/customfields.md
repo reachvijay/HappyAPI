@@ -14,7 +14,7 @@ Custom fields allow additional data to be added to the Helpdesk as required. Cus
 
 ###Read All User Custom Fields
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -46,7 +46,7 @@ Custom fields allow additional data to be added to the Helpdesk as required. Cus
 <p align="right"><a href="#operations">Top</a></p>
 ###Read One User Custom Field
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -79,7 +79,7 @@ Custom fields allow additional data to be added to the Helpdesk as required. Cus
 <p align="right"><a href="#operations">Top</a></p>
 ###Read All Ticket Custom Fields
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -111,7 +111,7 @@ Custom fields allow additional data to be added to the Helpdesk as required. Cus
 <p align="right"><a href="#operations">Top</a></p>
 ###Read One Ticket Custom Field
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>

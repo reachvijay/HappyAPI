@@ -22,7 +22,7 @@ The following HTTP methods are used to perform operations on resources provided 
 
 *NOTE: not all resources support all the listed operations, see the documentation of each resource for the supported methods*
 
-<table>
+<table width="90%">
 <tr>
 			<td>
 				<b>HTTP
@@ -78,7 +78,7 @@ Any of the data formats can be used provided the correct Content-Type is set in 
 *NOTE: file uploads are only supported with Multipart Form Data.*
 
 
-<table><tr>
+<table width="90%"><tr>
 		<td>
 			<b>Request
 			Format</b>
@@ -142,7 +142,7 @@ Any of the data formats can be used provided the correct Content-Type is set in 
 
 The following data formats are supported for response data sent back by the API server. The required data format is specified as the <response_format> mentioned under Resource URIs.
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>Response
 				Format</b>
@@ -196,7 +196,7 @@ The following data formats are supported for response data sent back by the API 
 
 These are the basic data types that are used in the API. Using these types more complex data structures for the resources are built.
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>Type</b>
 			</td>
@@ -282,7 +282,7 @@ These are the basic data types that are used in the API. Using these types more 
 
 Some of the fields in a resource may be optional or currently absent . The values of these fields are represented as a special NULL value. This value maps to corresponding equivalents in the data formats as listed below.
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>Response Format</b>
 			</td>
@@ -329,7 +329,7 @@ The response from the API server contains information about the page split and t
 
 #####URL Parameters
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>Field</b>
 			</td>
@@ -370,7 +370,7 @@ The response from the API server contains information about the page split and t
 This data structure contains information and data from the paginated list.
 
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>Field</b>
 			</td>
@@ -410,7 +410,7 @@ This data structure contains information and data from the paginated list.
 #####Page Info - Inner Data Structure
 This inner data structure is used in the "page_info" field of a Paginated List.
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>Field</b>
 			</td>
@@ -493,7 +493,7 @@ The error information response data is a List of Field Errors that contains info
 This data structure contains the field name and the list of errors messages for the field.
 
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>Field</b>
 			</td>

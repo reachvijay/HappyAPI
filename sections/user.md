@@ -11,7 +11,7 @@ A User is a person opening a ticket on the Helpdesk.
 * [Read one user by email](#read-one-user-by-email)
 
 ###Read All users
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -60,7 +60,7 @@ A User is a person opening a ticket on the Helpdesk.
 
 Retrieve details of a user using their ID.
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -93,7 +93,7 @@ Retrieve details of a user using their ID.
 ###Read One user By Email
 Retrieve details of a user using the their email address.
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>

@@ -13,7 +13,7 @@ A Staff is a person handling Helpdesk duties like responding to incoming tickets
 ###Read All Staff
 Retrieve a list of all staff
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -47,7 +47,7 @@ Retrieve a list of all staff
 
 Retrieve details of a staff using their ID
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -80,7 +80,7 @@ Retrieve details of a staff using their ID
 ###Read One Staff By Email
 Retrieve details of a staff using the their email address
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>

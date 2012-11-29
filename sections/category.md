@@ -14,7 +14,7 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 
 ###Read All Categories
 
-<table style="width:90%;"><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -46,7 +46,7 @@ A Ticket Category is a grouping of tickets based on a common attribute like tick
 <p align="right"><a href="#operations">Top</a></p>
 ###Read One Category
 
-<table style="width:90%;"><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>

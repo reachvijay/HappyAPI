@@ -12,7 +12,7 @@ A Ticket Priority describes the current importance of a ticket.
 
 ###Read All Priorities
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
@@ -43,7 +43,7 @@ A Ticket Priority describes the current importance of a ticket.
 <p align="right"><a href="#operations">Top</a></p>
 ###Read One Priority
 
-<table><tr>
+<table width="90%"><tr>
 			<td>
 				<b>URL</b>
 			</td>
